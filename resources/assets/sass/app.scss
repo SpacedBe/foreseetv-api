@@ -1,0 +1,30 @@
+@import "node_modules/materialize-css/sass/ghpages-materialize";
+
+.video-table {
+    .new {
+        background-color: yellow;
+    }
+}
+
+.row.error {
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+.row.success {
+    background-color: limegreen;
+    color: white;
+    padding: 20px;
+}
+
+.tooltip_templates {
+    display: none;
+}
+
+.bookmarklet {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}

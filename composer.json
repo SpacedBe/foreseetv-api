@@ -8,7 +8,8 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "alaouy/youtube": "dev-master",
-        "browner12/helpers": "^1.0"
+        "browner12/helpers": "^1.0",
+        "deployer/deployer": "^3.2"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

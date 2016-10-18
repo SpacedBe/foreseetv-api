@@ -11,6 +11,7 @@ Route::get('collection/delete/{id}', 'CollectionsController@delete');
 Route::post('video/create/{collectionId}', 'VideosController@create')->middleware('auth');
 Route::post('video/youtubeAdd/{collectionId}', 'VideosController@youtubeAdd')->middleware('cors');
 Route::get('video/delete/{videoId}', 'VideosController@delete')->middleware('auth');
+Route::get('video/mass/{collectionId}', 'VideosController@massImport')->middleware('auth');
 
 // AUTH
 Route::get('login', 'Auth\AuthController@showLoginForm');

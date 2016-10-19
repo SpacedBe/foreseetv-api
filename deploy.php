@@ -3,6 +3,8 @@
 // All Deployer recipes are based on `recipe/common.php`.
 require 'recipe/laravel.php';
 
+set('writable_use_sudo', false);
+
 // Define a server for deployment.
 // Let's name it "prod" and use port 22.
 server('prod', 'spaced.undefined.interhostsolutions.be', 22)
